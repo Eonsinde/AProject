@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif !important;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Mulish', sans-serif !important;
+  overflow-x: hidden;
+}
+
+/* app container styles */
+.app-container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+@media (min-width: 576px){
+  .app-container {
+    max-width: 560px;
+  }
+}
+
+@media (min-width: 768px){
+  .app-container {
+    max-width: 750px;
+  }
+}
+
+@media (min-width: 992px){
+  .app-container {
+    max-width: 980px;
+  }
+}
+
+@media (min-width: 1200px){
+  .app-container {
+    max-width: 1190px;
+  }
+}
+
+@media (min-width: 1280px){
+  .app-container {
+    max-width: 1270px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 3640px)
+{
+  .app-container {
+    max-width: 1170px;
+  }
+}
+
+/* app */
+/* for the scroll bar */
+/* width */
+main#project-viewport::-webkit-scrollbar {
+  width: 6px;
+  transition: 5s ease;
+}
+
+/* Track */
+main#project-viewport::-webkit-scrollbar-track {
+  background: #858585; 
+}
+
+/* Handle */
+main#project-viewport::-webkit-scrollbar-thumb {
+  background: #434343; 
+}
+
+/* Handle on hover */
+main#project-viewport::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+div#project-viewport::-webkit-scrollbar {
+  width: 6px;
+  transition: 5s ease;
+}
+
+/* Track */
+div#project-viewport::-webkit-scrollbar-track {
+  background: #858585; 
+}
+
+/* Handle */
+div#project-viewport::-webkit-scrollbar-thumb {
+  background: #434343; 
+}
+
+/* Handle on hover */
+div#project-viewport::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
